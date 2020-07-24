@@ -1,0 +1,7 @@
+FROM elasticsearch:5.6.9
+
+COPY elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
+
+RUN mkdir /usr/share/elasticsearch/backup &&\
+	chmod 777 /usr/share/elasticsearch/backup
+

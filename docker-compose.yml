@@ -1,0 +1,44 @@
+version: '2.1'
+services:
+  es-head:
+    image: mobz/elasticsearch-head:5
+    container_name: es-head
+    ports: 
+      - "59100:9100"
+    networks:
+      net:
+        ipv4_address: 172.16.173.3
+  es:
+    build:
+      context: .
+      dockerfile: es_dockerfile
+    restart: always
+    container_name: es-service
+    ports: 
+      - "59200:9200"
+    environment:
+      - bootstrap.memory_luck=true
+    networks:
+      net:
+        ipv4_address: 172.16.173.2
+
+  crawler:
+    build:
+      context: .
+      dockerfile: crawler_dockerfile
+    restart: always
+    container_name: crawler-service
+    links: 
+      - 'es:es-service'
+    networks:
+      net:
+        ipv4_address: 172.16.173.4
+
+networks:
+  net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      -
+        subnet: 172.16.173.0/24

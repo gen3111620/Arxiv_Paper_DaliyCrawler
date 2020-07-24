@@ -1,0 +1,4 @@
+schedule
+requests
+elasticsearch
+beautifulsoup4
