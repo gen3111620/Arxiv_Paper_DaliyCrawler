@@ -50,14 +50,12 @@ docker-compose up
 ```
 
 
+## Crawl results
 
 
-##Crawl results
+![image](https://github.com/gen3111620/Arxiv_Paper_DaliyCrawler/blob/master/picture/es1.jpg)
 
 
-![image](https://github.com/gen3111620/TorInit/blob/master/picture/es1.jpg)
+![image](https://github.com/gen3111620//blob/master/picture/es2.jpg)
 
-
-![image](https://github.com/gen3111620/TorInit/blob/master/picture/es2.jpg)
-
-![image](https://github.com/gen3111620/TorInit/blob/master/picture/es3.jpg)
+![image](https://github.com/gen3111620//blob/master/picture/es3.jpg)
