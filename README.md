@@ -56,6 +56,6 @@ docker-compose up
 ![image](https://github.com/gen3111620/Arxiv_Paper_DaliyCrawler/blob/master/picture/es1.jpg)
 
 
-![image](https://github.com/gen3111620//blob/master/picture/es2.jpg)
+![image](https://github.com/gen3111620/Arxiv_Paper_DaliyCrawler/blob/master/picture/es2.jpg)
 
-![image](https://github.com/gen3111620//blob/master/picture/es3.jpg)
+![image](https://github.com/gen3111620/Arxiv_Paper_DaliyCrawler/blob/master/picture/es3.jpg)
