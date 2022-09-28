@@ -29,6 +29,9 @@ jobs:
           compose-file: "./docker-compose.yml"
           
       - name: docker run
-        run: docker-compose up -d
+        run: docker-compose up
+        
+      - name: python run
+        run: python main.py  
    
           
