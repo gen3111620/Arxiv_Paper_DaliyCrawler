@@ -27,5 +27,8 @@ jobs:
       - uses: isbang/compose-action@v1.2.0
         with:
           compose-file: "./docker-compose.yml"
+          
+      - name: docker run
+        run: docker-compose up -d
    
           
